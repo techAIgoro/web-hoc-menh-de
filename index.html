@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài học: Mệnh Đề - Tương tác với AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="welcome-screen" class="screen active">
+            <img src="https://i.imgur.com/your-canva-intro-image.png" alt="Giới thiệu bài học Mệnh đề" class="intro-image">
+            <h1>Chào mừng bạn đến với bài học Mệnh đề!</h1>
+            <p>Bạn muốn khám phá kiến thức theo cách nào?</p>
+            <button onclick="startLearning('discover')">Tôi thích tự tìm hiểu và khám phá</button>
+            <button onclick="startLearning('feynman')">Tôi muốn được hướng dẫn chi tiết</button>
+        </div>
+
+        <div id="learning-screen" class="screen">
+            <h2 id="learning-title"></h2>
+            <div id="ai-chat-box">
+            </div>
+            <div class="input-area">
+                <textarea id="user-input" placeholder="Nhập câu trả lời hoặc câu hỏi của bạn..."></textarea>
+                <button onclick="askAI()">Gửi cho AI</button>
+            </div>
+            <button class="proceed-button" onclick="showExerciseSection()">Đã hiểu, chuyển sang làm bài tập</button>
+        </div>
+
+        <div id="exercise-screen" class="screen">
+            <h2>Vận dụng: Tự tạo bài tập</h2>
+            <p>Tuyệt vời! Bây giờ, hãy vận dụng kiến thức bạn vừa học để tự tạo 3 bài tập cơ bản và 2 bài tập nâng cao về Mệnh đề.</p>
+            
+            <div id="exercise-form">
+            </div>
+            
+            <button onclick="submitExercises()">Nộp Bài</button>
+        </div>
+
+        <div id="loading-spinner" class="spinner-overlay" style="display: none;">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

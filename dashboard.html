@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Quản lý Bài tập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard Giáo viên</h1>
+        <p>Xem và chọn ngẫu nhiên các bài tập do học sinh nộp.</p>
+        <button id="load-button" onclick="loadRandomExercises()">CHỌN 5 BÀI TẬP VẬN DỤNG NGẪU NHIÊN</button>
+        <div id="exercise-display">
+        </div>
+        <div id="loading-spinner" class="spinner-overlay" style="display: none;">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
