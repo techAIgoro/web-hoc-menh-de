@@ -1,5 +1,5 @@
 // !!! QUAN TRỌNG: Dán URL Web App bạn đã sao chép ở Bước 2 vào đây
-const BACKEND_URL = "YOUR_WEB_APP_URL";
+const BACKEND_URL = "https://script.google.com/macros/s/AKfycbwdKxIiaT3YFDLDD6D5BkaAWgooaYlytD-EmG7ahn4/dev";
 
 let learningPath = '';
 let studentId = `student_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`; // Tạo ID học sinh tạm thời
