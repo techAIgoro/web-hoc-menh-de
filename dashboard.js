@@ -1,5 +1,5 @@
 // !!! QUAN TRỌNG: Dán URL Web App bạn đã sao chép ở Bước 2 vào đây
-const BACKEND_URL = "https://script.google.com/macros/s/AKfycbwdKxIiaT3YFDLDD6D5BkaAWgooaYlytD-EmG7ahn4/dev";
+const BACKEND_URL = "https://script.google.com/macros/s/AKfycbwJ3jvXr4pEVsBa0CgXaDxoVtj13ndJh27IZJQl1QtvLHgcaUoUB5tklX4KsEndsduo/exec";
 
 function showLoading(show) {
     document.getElementById('loading-spinner').style.display = show ? 'flex' : 'none';
